@@ -60,7 +60,7 @@ function numberOclock(hour, min, sec, AM) {
     }
 }
 
-//fuction that control into diggit oclock
+//fuction that control rotation
 function arrowOclock(hour, min, sec) {
     const secRotate = ((360 / 60) * sec).toFixed(1),
         minRotate = ((360 / 60) * min + (secRotate / 360) * 6).toFixed(1), //(360/360)*6 =6deg => 1min = 6deg
