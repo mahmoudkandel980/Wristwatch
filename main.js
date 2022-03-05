@@ -18,20 +18,20 @@ function date() {
         am = worldDte.toLocaleTimeString(),
         dateOfTheDay = worldDte.getDate();
 
-    //EXCUTE fuction that control into diggit oclock
+    //EXCUETE fuction that control into diggit oclock
     numberOclock(hour, min, sec, am)
 
-    //EXCUTE fuction that control into arrow oclock
+    //EXCEUTE fuction that control into arrow oclock
     arrowOclock(hour, min, sec)
 
-    //EXCUTE fuction that control full date
+    //EXECUTE fuction that control full date
     dateData(dateOfTheDay, worldDte)
 
     setTimeout(() => {
         date()
     }, 1000);
 }
-// EXCUTE date fuction
+// EXECUTE date fuction
 date()
 
 
